@@ -61,6 +61,7 @@ function checkAns(idx) {
         document.querySelector("body").style.backgroundColor = "#011F3B";
       }, 150);
       reset();
+      startBtn.style.display = "block";
     }
 }
 
